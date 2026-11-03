@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,900;1,600&family=Manrope:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="img" href="./images/logo.png">
+    <title>LUXBAG — Premium Sumkalar</title>
+</head>
+<body>
+    <div id="loader">
+        <div class="half top"></div>
+        <div class="half bot"></div>
+        <div class="in">
+            <h1>LUX<b>BAG</b></h1>
+            <div class="bar"><i id="lbar"></i></div>
+            <div class="pct" id="lpct">0%</div>
+        </div>
+    </div>
+    <div id="progress"></div>
+
+    <nav id="nav">
+        <a class="logo" href="#">LUX<b>BAG</b></a>
+        <ul>
+            <li><a href="#htitle">Bosh sahifa</a></li>
+            <li><a href="#about">Biz haqimizda</a></li>
+            <li><a href="#col">Kolleksiya</a></li>
+            <li><a href="#look">Lookbook</a></li>
+            <li><a href="#how">Jarayon</a></li>
+            <li><a href="#faq">Savollar</a></li>
+            <li><a href="#contact">Aloqa</a></li>
+        </ul>
+        <button class="cartbtn" id="openCart">Savat <span id="cnt">0</span></button>
+    </nav>
+    
+    <header class="hero">
+        <div>
+            <h1 id="htitle">Uslubingizni <i>qo'lda</i> olib yuring</h1>
+            <p>Qo'lda tikilgan, haqiqiy charmdan yasalgan premium sumkalar. Har bir chok — san'at, har bir detal — sizning xarakteringiz.</p>
+            <a class="btn" href="#col">KOLLEKSIYANI KO'RISH</a>
+        </div>
+        <div class="hero-img">
+            <img id="heroimg" src="images/hero.jpg" alt="Jigarrang charm sumka">
+        </div>
+    </header>
+    
+    <div class="marquee">
+        <div>✦ CHARM ✦ USLUB ✦ SIFAT ✦ HASHAMAT ✦ QO'L MEHNATI ✦ ABADIYLIK ✦ CHARM ✦ USLUB ✦ SIFAT ✦ HASHAMAT ✦ QO'L MEHNATI ✦ ABADIYLIK&nbsp;</div>
+    </div>
+    <div class="marquee2">
+        <div>✦ CHARM ✦ USLUB ✦ SIFAT ✦ HASHAMAT ✦ QO'L MEHNATI ✦ ABADIYLIK ✦ CHARM ✦ USLUB ✦ SIFAT ✦ HASHAMAT ✦ QO'L MEHNATI ✦ ABADIYLIK&nbsp;</div>
+    </div>
+
+    <section id="about">
+        <div class="split">
+            <div class="reveal">
+                <span class="tag">BIZ HAQIMIZDA</span>
+                <h2>15 yillik ustalik tarixi</h2>
+                <p>LUXBAG 2011-yilda Toshkentdagi kichik ustaxonada boshlangan. Bugun biz butun O'zbekiston bo'ylab minglab mijozlarga xizmat qilamiz.</p>
+                <p>Biz faqat tabiiy charm, mustahkam iplar va zanglamaydigan furnituradan foydalanamiz. Har bir sumka 20 dan ortiq bosqichdan o'tadi.</p>
+                <a class="btn" href="#how">JARAYONNI KO'RISH</a>
+            </div>
+            <div class="pic reveal"><img src="images/craft.jpg" alt="Usta charm tikmoqda" loading="lazy"></div>
+        </div>
+        <div class="stats reveal">
+            <div class="stat"><b data-n="15">0</b>yillik tajriba</div>
+            <div class="stat"><b data-n="12000">0</b>mamnun mijoz</div>
+            <div class="stat"><b data-n="240">0</b>model</div>
+            <div class="stat"><b data-n="98">0</b>% ijobiy baho</div>
+        </div>
+    </section>
+
+    <section id="col">
+        <div class="title reveal"><small>KOLLEKSIYA 2026</small><h2>Eng sara sumkalar</h2></div>
+        <div class="grid">
+            <div class="card reveal tilt" data-name="Classic Tote" data-price="1450000" data-img="images/hero.jpg">
+                <div class="ph"><img src="images/hero.jpg" alt="Classic Tote" loading="lazy"></div>
+                <h3>Classic Tote</h3>
+                <p>Kundalik hayot uchun keng va mustahkam.</p>
+                <div class="row">
+                    <div class="price">1 450 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            <div class="card reveal tilt" data-name="Bordo Clutch" data-price="980000" data-img="images/b2.jpg">
+                <div class="ph"><img src="images/b2.jpg" alt="Bordo Clutch" loading="lazy"></div>
+                <h3>Bordo Clutch</h3>
+                <p>Kechki tadbirlar uchun nafis tanlov.</p>
+                <div class="row">
+                    <div class="price">980 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            <div class="card reveal tilt" data-name="Noir Backpack" data-price="1750000" data-img="images/b3.jpg">
+                <div class="ph"><img src="images/b3.jpg" alt="Noir Backpack" loading="lazy"></div>
+                <h3>Noir Backpack</h3>
+                <p>Shahar uchun zamonaviy qora ryukzak.</p>
+                <div class="row">
+                    <div class="price">1 750 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            <div class="card reveal tilt" data-name="Sand Shoulder" data-price="1200000" data-img="images/b4.jpg">
+                <div class="ph"><img src="images/b4.jpg" alt="Sand Shoulder" loading="lazy"></div>
+                <h3>Sand Shoulder</h3>
+                <p>Yengil, yozgi rang, yumshoq charm.</p>
+                <div class="row">
+                    <div class="price">1 200 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            <div class="card reveal tilt" data-name="Emerald Mini" data-price="850000" data-img="images/b5.jpg">
+                <div class="ph"><img src="images/b5.jpg" alt="Emerald Mini" loading="lazy"></div>
+                <h3>Emerald Mini</h3>
+                <p>Kichkina, lekin e'tiborni tortadi.</p>
+                <div class="row">
+                    <div class="price">850 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            <div class="card reveal tilt" data-name="Gold Edition" data-price="3200000" data-img="images/b6.jpg">
+                <div class="ph"><img src="images/b6.jpg" alt="Gold Edition" loading="lazy"></div>
+                <h3>Gold Edition</h3>
+                <p>Cheklangan seriya — atigi 100 dona.</p>
+                <div class="row">
+                    <div class="price">3 200 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            <div class="card reveal tilt" data-name="Heritage Satchel" data-price="1650000" data-img="images/p07.jpg">
+                <div class="ph"><img src="images/p07.jpg" alt="Heritage Satchel" loading="lazy"></div>
+                <h3>Heritage Satchel</h3>
+                <p>Brass tokali klassik satchel — qo'lda tikilgan.</p>
+                <div class="row">
+                    <div class="price">1 650 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            <div class="card reveal tilt" data-name="Camel Crossbody" data-price="1150000" data-img="images/p08.jpg">
+                <div class="ph"><img src="images/p08.jpg" alt="Camel Crossbody" loading="lazy"></div>
+                <h3>Camel Crossbody</h3>
+                <p>Yelkaga osiladigan, kunlik uslub uchun.</p>
+                <div class="row">
+                    <div class="price">1 150 000 so'm</div>
+                    <button class="add">+</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section>
+        <div class="title reveal"><small>NEGA BIZ</small><h2>LUXBAG afzalliklari</h2></div>
+        <div class="feat">
+            <div class="f reveal"><div class="n">01</div><h3>Tabiiy charm</h3><p>Faqat Italiya va Turkiyadan keltirilgan premium charm.</p></div>
+            <div class="f reveal"><div class="n">02</div><h3>Bepul yetkazish</h3><p>Butun O'zbekiston bo'ylab bepul va tezkor yetkazib berish.</p></div>
+            <div class="f reveal"><div class="n">03</div><h3>2 yil kafolat</h3><p>Har bir sumkaga rasmiy kafolat va bepul ta'mir.</p></div>
+            <div class="f reveal"><div class="n">04</div><h3>Gravirovka</h3><p>Ismingizni sumkaga bepul o'yib yozib beramiz.</p></div>
+        </div>
+    </section>
+
+    <section id="look">
+        <div class="split">
+            <div class="pic reveal"><img src="images/model.jpg" alt="Sumka bilan ayol" loading="lazy"></div>
+            <div class="reveal">
+                <span class="tag">LOOKBOOK</span>
+                <h2>Shahar ritmida nafosat</h2>
+                <p>Bizning sumkalar ofisda ham, kechki ziyofatda ham, sayohatda ham sizga hamroh. Klassik shakllar va zamonaviy detallar uyg'unligi.</p>
+                <p>Kuz-qish 2026 kolleksiyasi — chuqur ranglar, oltin furnitura va mukammal chiziqlar.</p>
+                <a class="btn" href="#col">XARID QILISH</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="how">
+        <div class="title reveal"><small>JARAYON</small><h2>Sumka qanday tug'iladi</h2></div>
+        <div class="timeline">
+            <div class="step reveal"><h3>01. Dizayn</h3><p>Dizaynerlarimiz eskizdan 3D modelgacha har bir chiziqni o'ylab chiqadi.</p></div>
+            <div class="step reveal"><h3>02. Charm tanlash</h3><p>Faqat eng yuqori sifatli, qo'lda saralangan charm tanlanadi.</p></div>
+            <div class="step reveal"><h3>03. Bichish</h3><p>Ustalar charmni milimetr aniqligida qo'lda bichadi.</p></div>
+            <div class="step reveal"><h3>04. Tikish</h3><p>Har bir chok mum surtilgan ip bilan qo'lda tikiladi.</p></div>
+            <div class="step reveal"><h3>05. Sifat nazorati</h3><p>Tayyor sumka 12 bosqichli tekshiruvdan o'tadi.</p></div>
+            <div class="step reveal"><h3>06. Qadoqlash</h3><p>Maxsus sovg'a qutisida, chiroyli qadoqda sizga yetkaziladi.</p></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="title reveal"><small>FIKRLAR</small><h2>Mijozlarimiz nima deydi</h2></div>
+        <div class="testi">
+            <div class="t">"Classic Tote'ni 3 yildan beri ishlataman — hali ham yangidek!"<b><img class="fikr" src="./images/woman.jpeg" alt=""> Madina, Toshkent</b></div>
+            <div class="t">"Xotinimga Gold Edition sovg'a qildim, juda xursand bo'ldi."<b><img class="fikr" src="./images/woman2.jpeg" alt=""> Aziza, Samarqand</b></div>
+            <div class="t">"Sifat va xizmat a'lo darajada. Yetkazish juda tez."<b><img class="fikr" src="./images/woman3.jpeg" alt=""> Nilufar, Buxoro</b></div>
+            <div class="t">"Noir Backpack — eng yaxshi xaridim. Tavsiya qilaman!"<b><img class="fikr" src="./images/woman4.jpeg" alt=""> Munisa, Farg'ona</b></div>
+            <div class="t">"Har bir detal o'ylangan. Haqiqiy san'at asari."<b><img class="fikr" src="./images/woman5.jpeg" alt=""> Kamola, Namangan</b></div>
+            <div class="t">"Narxi sifatiga to'liq arziydi. Yana buyurtma beraman."<b><img class="fikr" src="./images/woman6.jpeg" alt=""> Soliha, Andijon</b></div>
+        </div>
+    </section>
+
+    <section id="faq" class="faq">
+        <div class="title reveal"><small>SAVOLLAR</small><h2>Ko'p so'raladigan savollar</h2></div>
+        <details class="reveal"><summary>Yetkazib berish qancha vaqt oladi?</summary><p>Toshkent bo'ylab 24 soat, viloyatlarga 2–4 kun ichida.</p></details>
+        <details class="reveal"><summary>Kafolat bormi?</summary><p>Ha, barcha sumkalarga 2 yillik rasmiy kafolat beriladi.</p></details>
+        <details class="reveal"><summary>Ism yozdirsa bo'ladimi?</summary><p>Albatta! Ismingizni bepul gravirovka qilamiz.</p></details>
+        <details class="reveal"><summary>Qaytarish mumkinmi?</summary><p>14 kun ichida sababsiz qaytarish yoki almashtirish mumkin.</p></details>
+        <details class="reveal"><summary>To'lov qanday amalga oshiriladi?</summary><p>Naqd, Payme, Click yoki karta orqali qabul qilinganda to'lashingiz mumkin.</p></details>
+    </section>
+
+    <div class="news reveal">
+        <h2>Yangiliklardan birinchi bo'lib xabardor bo'ling</h2>
+        <p>Obuna bo'ling va birinchi xaridga 10% chegirma oling.</p>
+        <form id="nform">
+            <input type="email" placeholder="Email manzilingiz" required>
+            <button>Obuna</button>
+        </form>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="title reveal"><small>ALOQA</small><h2>Buyurtma bering</h2></div>
+        <form id="form" class="reveal">
+            <input placeholder="Ismingiz" required>
+            <input placeholder="Telefon raqamingiz" required>
+            <textarea rows="4" placeholder="Qaysi sumka sizga yoqdi?"></textarea>
+            <button class="btn">YUBORISH</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="fcols">
+            <div>
+                <h4>LUXBAG</h4>
+                <p>Qo'lda tikilgan premium charm sumkalar. 2011-yildan beri sifat va nafosat timsoli.</p>
+            </div>
+            <div>
+                <h4>DO'KON</h4>
+                <a href="#col">Kolleksiya</a>
+                <a href="#look">Lookbook</a>
+                <a href="#col">Yangi kelganlar</a>
+                <a href="#col">Chegirmalar</a>
+            </div>
+            <div>
+                <h4>YORDAM</h4>
+                <a href="#faq">Savollar</a>
+                <a href="#faq">Yetkazib berish</a>
+                <a href="#faq">Kafolat</a>
+                <a href="#contact">Aloqa</a>
+            </div>
+            <div>
+                <h4>ALOQA</h4>
+                <p>+998 90 123 45 67</p>
+                <p>info@luxbag.uz</p>
+                <p>Toshkent, Amir Temur ko'chasi</p>
+                <a href="#">Instagram</a>
+                <a href="#">Telegram</a>
+            </div>
+        </div>
+        <div class="fbig"><h1>LUXBAG</h1></div>
+        <div class="fbot">
+            <span>© 2026 LUXBAG. Barcha huquqlar himoyalangan.</span>
+            <span>Har kuni 9:00 — 21:00</span>
+        </div>
+    </footer>
+
+    <div id="overlay"></div>
+    <aside id="cart">
+        <h2>Savat <button id="closeCart">✕</button></h2>
+        <div id="items"></div>
+        <div class="total">
+            <span>Jami:</span>
+            <span id="sum">0 so'm</span>
+        </div>
+        <button class="btn" id="checkout" style="margin:0">BUYURTMA BERISH</button>
+    </aside>
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
